@@ -7,7 +7,7 @@ Created on Sat Sep 23 22:04:48 2023
 
 import numpy as np
 import matplotlib.pyplot as plt
-diction_data = {f'experience{i}': np.random.randn(100) for i in range(4)}
+diction_data = {f'experience{i}': np.random.randn(110) for i in range(4)}
 '''def graphe_data (donnee):
     plt.figure(figsize=(10,6))
     n = len(donnee)
